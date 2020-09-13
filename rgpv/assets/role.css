@@ -1,0 +1,287 @@
+/* cross navbar */
+
+.sidepanel {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #F8F9FA;
+    box-shadow: 5px 10px #888888;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #0e0252;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidepanel a:hover {
+    color: #e4870f;
+}
+
+.sidepanel a:hover {
+    color: #e4870f;
+}
+
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+
+.openbtn {
+    font-size: 28px;
+    cursor: pointer;
+    background-color: rgb(158, 155, 155);
+    color: white;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: rgb(59, 30, 126);
+}
+
+
+/*  */
+
+
+/* navbar heplp  css */
+
+.navcol1 {
+    background-color: #F8F9FA;
+    height: auto;
+}
+
+.naveimage {
+    float: left;
+    width: 350px;
+    height: auto;
+    padding-right: 10px;
+}
+
+.col-sm {
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.help {
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.emailchat {
+    font-size: 16px;
+    color: #212121;
+}
+
+.helpcenter {
+    text-align: center;
+    height: auto;
+}
+
+
+/* close navbar css */
+
+
+/* my second navbar */
+
+.btncolor:hover {
+    background-color: #3333cc;
+    color: orange;
+}
+
+.btncolor:focus {
+    background-color: #3333cc;
+    color: orange;
+}
+
+.btncolor {
+    border: solid 2px #3333cc;
+    border-radius: 8px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 4px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dropdown-item {
+    color: white;
+    background: #3333cc;
+}
+
+.dropdown-item:hover {
+    color: orange;
+    background-color: white;
+}
+
+.navedrop {
+    margin-top: 15px;
+}
+
+.navebarmargin {
+    margin-left: 24%;
+}
+
+
+/* .topnav {
+    overflow: hidden;
+    background-color: white;
+    margin-bottom: 27px;
+} */
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+
+/* second navbar  */
+
+.navehomecolor:hover {
+    background-color: #4011c0;
+    color: orange;
+    margin-left: 5px;
+    size: 20px;
+}
+
+
+/* .secondnavbarcolor {
+    background: rgb(255, 254, 254);
+    width: 100%;
+} */
+
+.secondnav {
+    height: 120px;
+    margin-top: -5px;
+}
+
+.navborder {
+    height: 100px;
+}
+
+.topnav1 {
+    background-color: white;
+}
+
+.topnav1 .icon {
+    display: none;
+}
+
+.topnav1 a:hover {
+    background-color: #3333cc;
+    color: orange;
+}
+
+
+/* close second nav abr */
+
+
+/* inage iiiiiiiiiiiiiiiiiiiiiiiiiiiiimage */
+
+
+/* notification */
+
+.notification {
+    float: left;
+    margin-left: 15%;
+    font: 40px;
+}
+
+
+/* video */
+
+.video-galary {
+    text-align: center;
+    font-family: Poppins;
+    margin-top: 25px;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+.video {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+}
+
+.carousel-inner {
+    background: rgb(3, 219, 252);
+    height: 20%;
+    margin-top: 30px;
+}
+
+
+/* footer fffffffffffffffffffffffffffffffffffffffffoter */
+
+footer {
+    background: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+
+footer p>span {
+    color: #ff512f;
+}
+
+footer input {
+    border: none !important;
+}
+
+footer input::placeholder {
+    color: white !important;
+}
+
+footer .input-group .input-group-text {
+    background: var(--bggradient);
+    border: none;
+}
+
+footer .column i {
+    color: #fffdfe;
+}
+
+footer .column i+i {
+    padding: 0 0.5em;
+}
+
+.socialtag {
+    font-size: 16px;
+    margin-left: 9px;
+    color: white;
+}
+
+.card-header1 {
+    background: #000;
+}
+
+.footsupport {
+    font-size: 14px;
+    color: white;
+}
+
+.footerfont {
+    font-size: 20px;
+    color: white;
+    font-family: Poppins;
+}
+
+li {
+    color: white;
+}
+
+.footerheight {
+    height: 50px;
+    text-align: center;
+    margin-top: 10px;
+}
